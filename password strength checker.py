@@ -12,6 +12,6 @@ def checkstrength(password):
         return "moderate"
     else:
         return "weak password"
-password=input("Enter the password")
+password=input("Enter the password: ")
 f=checkstrength(password)
 print(f)
